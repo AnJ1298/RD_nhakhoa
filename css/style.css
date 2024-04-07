@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-bar{width: 100%; hieght: 50px; line-height: 50px}
+.top-bar a{color: white}
+.top-bar a:hover{color: #FFC113}
+
+.navbar .narbar-nav .nav-item .nav-link{ padding: 10px 20px}
+.navbar .narbar-nav .nav-item .nav-link:hover {color: #056CB6}
+
+.navbar .navbar-nav .nav-item .dropdown-menu{background-color: #056CB6; padding-top:0; padding-bottom: 0; border-radius: 0}
+
+.navbar .navbar-nav .nav-item .dropdown-menu li {border-bottom: 1px solid #494949}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item{color: white}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover{background-color: #ffc113}
+
+main{width: 100%; min-height: 500px}
+
+.underline{border-bottom: 2px solid #FFC113}
+footer .navbar-nar .nav-item .nav-link:hover {color: #FFC113}
+footer a {color: white}
+footer a:hover{color: #FFC113}
+
+#services a {text-decoration: none}
+#services a:hover {color:#FFC113}
+#why {margin-top: 60px; width: 100%; min-height: 400px; background-image: url("../images/why.jpg"); background-size: cover; background-repeat: no-repeat; background-position: top center}
+
+#galery button:hover{background-color: #FFC113; color: white}
+#news a {text-decoration: none}
+#news a:hover{color: #FFC113}
+
+#appointment button:hover{background-color: #FFC113; color: white} 
+#feedback .content img{width: 120px; height: 120px
+	
+}
+#feedback .content{
+	display: flex; flex-direction: column;justify-content: center; align-items: center
+}
+#banner{width: 100%; min-height: 300px; background-image: url("../images/banner.png")}
+.search-box{
+	width: 100%; min-height: 70px;
+		background-color:#F8FAF5
+}
+#service-rang-su a{text-decoration: none; color: #212529 }
+#service-rang-su a:hover{text-decoration: underline}
